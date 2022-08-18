@@ -1,2 +1,2 @@
-# pinix
-NixOS for Pine64 Devices
+# Pinix
+NixOS configs for Pine64 devices
