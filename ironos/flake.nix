@@ -89,6 +89,7 @@
     in
       {
         packages.x86_64-linux = builds // translations;
+        defaultPackage.x86_64-linux = self.packages.x86_64-linux.ironos-en;
         overlays.default = final: prev: {
           pkgsCross.riscv32-embedded-temp = import prev.path {
             crossSystem = {
