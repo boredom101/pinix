@@ -1,0 +1,99 @@
+{
+  "nodes": {
+    "meta": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1650931324,
+        "narHash": "sha256-oguB4pb7Qzg3uq9oYZmued6TSFJv4LD3eN2Gvvc4veI=",
+        "owner": "Ralim",
+        "repo": "IronOS-Meta",
+        "rev": "cb9c811bd91053c6d04d09988e65cc3e27cb710f",
+        "type": "github"
+      },
+      "original": {
+        "owner": "Ralim",
+        "ref": "v2022.02.24",
+        "repo": "IronOS-Meta",
+        "type": "github"
+      }
+    },
+    "nixpkgs": {
+      "locked": {
+        "lastModified": 1660496378,
+        "narHash": "sha256-sgAhmrC1iSnl5T2VPPiMpciH1aRw5c7PYEdXX6jd6Gk=",
+        "owner": "nixos",
+        "repo": "nixpkgs",
+        "rev": "879121648fe522b38cc1cf75aef160a14a1f2e7b",
+        "type": "github"
+      },
+      "original": {
+        "owner": "nixos",
+        "ref": "nixos-22.05",
+        "repo": "nixpkgs",
+        "type": "github"
+      }
+    },
+    "py_bdflib": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1642145314,
+        "narHash": "sha256-Wk2/1aHNQE8Q/ptEVzqKsva/pNizKbPzs0WWUUg2pKU=",
+        "owner": "Screwtapello",
+        "repo": "bdflib",
+        "rev": "30027531c97ed27586fd8895706d8a672a437f15",
+        "type": "gitlab"
+      },
+      "original": {
+        "owner": "Screwtapello",
+        "ref": "v2.0.1",
+        "repo": "bdflib",
+        "type": "gitlab"
+      }
+    },
+    "root": {
+      "inputs": {
+        "meta": "meta",
+        "nixpkgs": "nixpkgs",
+        "py_bdflib": "py_bdflib",
+        "src": "src",
+        "usbpd": "usbpd"
+      }
+    },
+    "src": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1657715812,
+        "narHash": "sha256-DSjsy55Zb6xFiqGGZUZK1lATZnCD+y2SzREuvX5AWig=",
+        "owner": "Ralim",
+        "repo": "IronOS",
+        "rev": "a3bbabcd68912f3d80cce9b9ed061ccf65154b00",
+        "type": "github"
+      },
+      "original": {
+        "owner": "Ralim",
+        "ref": "v2.19",
+        "repo": "IronOS",
+        "type": "github"
+      }
+    },
+    "usbpd": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1644118897,
+        "narHash": "sha256-xQRBeHPf3FvZHav1q5yi7AN6422q32OUu77x9Cxsovg=",
+        "owner": "Ralim",
+        "repo": "usb-pd",
+        "rev": "b38598261df4f705bcbd37cdd5dcccfaa5ab7b4a",
+        "type": "github"
+      },
+      "original": {
+        "owner": "Ralim",
+        "repo": "usb-pd",
+        "rev": "b38598261df4f705bcbd37cdd5dcccfaa5ab7b4a",
+        "type": "github"
+      }
+    }
+  },
+  "root": "root",
+  "version": 7
+}
